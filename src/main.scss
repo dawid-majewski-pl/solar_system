@@ -1,8 +1,35 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
-
+$theme-colors: (
+  "dark-main": #222222,
+  "white-main": #eeeeee,
+  "blue-main": #6cace7,
+);
 // Include any default variable overrides here (though functions won't be available)
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+.home {
+    background-image: url('../public/img/sky.jpg');
+    background-size: cover;
+    background-repeat: space;
+    min-height: 100vh;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.moon {
+    animation: rotation 240s infinite linear;
+    width: 280px;
+    @media (min-width:1240px) {
+        width:420px;
+    }
+}
