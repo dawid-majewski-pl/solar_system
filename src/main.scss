@@ -33,3 +33,10 @@ $theme-colors: (
         width:420px;
     }
 }
+
+.navbar-specials {
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 100;
+}
