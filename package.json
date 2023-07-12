@@ -1,0 +1,38 @@
+{
+  "name": "solar_system",
+  "version": "1.0.0",
+  "description": "Website about solar system.",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "sass --watch src/main.scss public/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawid-majewsk-pl/solar_system.git"
+  },
+  "keywords": [
+    "solar",
+    "system",
+    "solar",
+    "sun",
+    "mercury",
+    "venus",
+    "earth",
+    "moon",
+    "mars",
+    "jupiter",
+    "saturn",
+    "uranus",
+    "neptune"
+  ],
+  "author": "Dawid Majewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawid-majewsk-pl/solar_system/issues"
+  },
+  "homepage": "https://github.com/dawid-majewsk-pl/solar_system#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "sass": "^1.63.6"
+  }
+}
