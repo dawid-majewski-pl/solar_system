@@ -40,3 +40,11 @@ $theme-colors: (
     background-color: rgba(0, 0, 0, 0.85);
     z-index: 100;
 }
+
+.link-specials {
+    color: white;
+    transition: .3s;
+    &:hover {
+        color:#6cace7;
+    }
+}

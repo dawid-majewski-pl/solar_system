@@ -11420,4 +11420,12 @@ textarea.form-control-lg {
   z-index: 100;
 }
 
+.link-specials {
+  color: white;
+  transition: 0.3s;
+}
+.link-specials:hover {
+  color: #6cace7;
+}
+
 /*# sourceMappingURL=main.css.map */
