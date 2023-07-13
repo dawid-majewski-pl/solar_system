@@ -11390,13 +11390,13 @@ textarea.form-control-lg {
 }
 @keyframes small-rotation {
   0% {
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
   }
   50% {
-    transform: rotate(3deg);
+    transform: rotate(2deg);
   }
   100% {
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
   }
 }
 @keyframes rotation {
@@ -11491,17 +11491,24 @@ main {
 }
 
 .background-rotation {
-  background-image: url("../public/img/sky.jpg");
+  background-image: url("../public/img/night.jpg");
   background-position: center;
   background-attachment: fixed;
   animation: small-rotation 20s infinite ease-in-out;
   overflow: hidden;
   position: relative;
   z-index: 0;
-  height: 200vh;
-  width: 200vw;
-  left: -50vw;
-  top: -50vh;
+  height: 132vh;
+  width: 132vw;
+  top: -45px;
+  left: -60px;
+}
+@media (max-width: 1400px) {
+  .background-rotation {
+    top: -20px;
+    height: 150vh;
+    width: 150vw;
+  }
 }
 
 .planets-content-wrapper {
