@@ -1,9 +1,9 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 $theme-colors: (
-  "dark-main": #222222,
-  "white-main": #eeeeee,
-  "blue-main": #6cace7,
+    "dark-main": #222222,
+    "white-main": #eeeeee,
+    "blue-main": #6cace7,
 );
 // Include any default variable overrides here (though functions won't be available)
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -11,7 +11,7 @@ $theme-colors: (
 // Then add additional custom code here
 
 .home {
-    background-image: url('../public/img/sky.jpg');
+    background-image: url("../public/img/sky.jpg");
     background-size: cover;
     background-repeat: space;
     min-height: 100vh;
@@ -27,10 +27,10 @@ $theme-colors: (
 }
 
 .moon {
-    animation: rotation 240s infinite linear;
+    animation: rotation 180s infinite linear;
     width: 280px;
-    @media (min-width:1240px) {
-        width:420px;
+    @media (min-width: 1240px) {
+        width: 420px;
     }
 }
 
@@ -43,8 +43,16 @@ $theme-colors: (
 
 .link-specials {
     color: white;
-    transition: .3s;
+    transition: 0.3s;
     &:hover {
-        color:#6cace7;
+        color: #6cace7;
+    }
+}
+
+svg {
+    transition: 0.3s;
+    &:hover {
+        fill: #6cace7;
+        transform: rotate(270deg);
     }
 }
