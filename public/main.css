@@ -11510,7 +11510,7 @@ textarea.form-control-lg {
 .home {
   background-image: url("../public/img/sky.jpg");
   background-size: cover;
-  background-repeat: space;
+  background-attachment: fixed;
   min-height: 100vh;
   margin-bottom: 32px;
 }
@@ -11532,7 +11532,7 @@ textarea.form-control-lg {
 .sun {
   background-image: url("../public/img/sun_bg.jpg");
   background-size: cover;
-  background-repeat: space;
+  background-attachment: fixed;
   min-height: fit-content;
   margin-bottom: 32px;
   padding-bottom: 32px;
@@ -11609,7 +11609,6 @@ svg:hover {
   transition: 0.3s;
   width: 80%;
 }
-
 .btn-specials:hover {
   transform: scale(1.1);
 }
@@ -11621,12 +11620,11 @@ svg:hover {
 .moons {
   background-image: url("../public/img/space.jpg");
   background-size: cover;
-  background-repeat: space;
+  background-attachment: fixed;
   min-height: fit-content;
   margin-bottom: 32px;
   padding-bottom: 32px;
 }
-
 .moons-cards-specials {
   background-color: rgba(3, 11, 27, 0.7725490196);
   transition: 0.5s;
@@ -11634,6 +11632,13 @@ svg:hover {
 .moons-cards-specials:hover {
   background-color: rgba(6, 23, 59, 0.6784313725);
   transform: scale(1.02);
+}
+
+.objects {
+  background-image: url("/public/img/objects.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  padding-bottom: 32px;
 }
 
 /*# sourceMappingURL=main.css.map */

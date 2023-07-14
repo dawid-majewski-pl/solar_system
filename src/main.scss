@@ -41,7 +41,7 @@ $theme-colors: (
 .home {
     background-image: url("../public/img/sky.jpg");
     background-size: cover;
-    background-repeat: space;
+    background-attachment: fixed;
     min-height: 100vh;
     margin-bottom: 32px;
     &-link-specials {
@@ -61,7 +61,7 @@ $theme-colors: (
 .sun {
     background-image: url("../public/img/sun_bg.jpg");
     background-size: cover;
-    background-repeat: space;
+    background-attachment: fixed;
     min-height: fit-content;
     margin-bottom: 32px;
     padding-bottom:32px;
@@ -136,10 +136,9 @@ svg {
 .btn-specials {
     transition: 0.3s;
     width: 80%;
-}
-
-.btn-specials:hover {
+    &:hover {
     transform: scale(1.1);
+}
 }
 
 .button-container {
@@ -149,17 +148,23 @@ svg {
 .moons {
     background-image: url('../public/img/space.jpg');
     background-size: cover;
-    background-repeat: space;
+    background-attachment: fixed;
     min-height: fit-content;
     margin-bottom: 32px;
     padding-bottom:32px;
+    &-cards-specials {
+        background-color: #030b1bc5;
+        transition: .5s;
+        &:hover {
+            background-color: #06173bad;
+            transform:scale(1.02)
+        }
+    }
 }
 
-.moons-cards-specials {
-    background-color: #030b1bc5;
-    transition: .5s;
-    &:hover {
-        background-color: #06173bad;
-        transform:scale(1.02)
-    }
+.objects {
+    background-image: url('/public/img/objects.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom:32px;
 }
