@@ -4,6 +4,7 @@ $theme-colors: (
     "dark-main": #222222,
     "white-main": #eeeeee,
     "blue-main": #6cace7,
+    "orange-main": #ca9012,
 );
 // Include any default variable overrides here (though functions won't be available)
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -54,6 +55,23 @@ $theme-colors: (
     width: 280px;
     @media (min-width: 1240px) {
         width: 420px;
+    }
+}
+
+.sun {
+    background-image: url("../public/img/sun_bg.jpg");
+    background-size: cover;
+    background-repeat: space;
+    min-height: 100vh;
+    margin-bottom: 32px;
+}
+
+.sun-specials {
+    background-color: #6b4b009a;
+    transition: .5s;
+    &:hover {
+        background-color: #b9900963;
+        transform: scale(1.02);
     }
 }
 
