@@ -11420,6 +11420,10 @@ textarea.form-control-lg {
   min-height: 100vh;
   margin-bottom: 32px;
 }
+.home-link-specials {
+  width: 22%;
+  font-size: 16px;
+}
 
 .moon {
   animation: rotation 180s infinite linear;
@@ -11478,9 +11482,9 @@ svg:hover {
   color: white;
   transition: 0.5s;
 }
-
 .card-specials:hover {
   background-color: rgba(52, 184, 245, 0.2196078431);
+  transform: scale(1.02);
 }
 
 .img-specials {
@@ -11507,6 +11511,15 @@ svg:hover {
   background-repeat: space;
   min-height: 100vh;
   margin-bottom: 32px;
+}
+
+.moons-cards-specials {
+  background-color: rgba(3, 11, 27, 0.7725490196);
+  transition: 0.5s;
+}
+.moons-cards-specials:hover {
+  background-color: rgba(6, 23, 59, 0.6784313725);
+  transform: scale(1.02);
 }
 
 /*# sourceMappingURL=main.css.map */

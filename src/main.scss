@@ -43,6 +43,10 @@ $theme-colors: (
     background-repeat: space;
     min-height: 100vh;
     margin-bottom: 32px;
+    &-link-specials {
+        width: 22%;
+        font-size: 16px;
+    }
 }
 
 .moon {
@@ -97,11 +101,12 @@ svg {
     background-color: #24a4df1c;
     color: white;
     transition: .5s;
+    &:hover {
+        background-color: #34b8f538;
+        transform: scale(1.02);
+    }
 }
 
-.card-specials:hover {
-    background-color: #34b8f538;
-}
 
 .img-specials {
     max-width: 240px;
@@ -127,4 +132,13 @@ svg {
     background-repeat: space;
     min-height: 100vh;
     margin-bottom: 32px;
+}
+
+.moons-cards-specials {
+    background-color: #030b1bc5;
+    transition: .5s;
+    &:hover {
+        background-color: #06173bad;
+        transform:scale(1.02)
+    }
 }
