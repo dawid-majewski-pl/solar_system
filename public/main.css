@@ -11533,8 +11533,9 @@ textarea.form-control-lg {
   background-image: url("../public/img/sun_bg.jpg");
   background-size: cover;
   background-repeat: space;
-  min-height: 100vh;
+  min-height: fit-content;
   margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .sun-specials {
@@ -11575,6 +11576,7 @@ svg:hover {
 
 .planets {
   margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .cards-wrapper-specials {
@@ -11620,8 +11622,9 @@ svg:hover {
   background-image: url("../public/img/space.jpg");
   background-size: cover;
   background-repeat: space;
-  min-height: 100vh;
+  min-height: fit-content;
   margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .moons-cards-specials {
