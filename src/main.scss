@@ -43,8 +43,6 @@ $theme-colors: (
     background-repeat: space;
     min-height: 100vh;
     margin-bottom: 32px;
-    z-index: 1;
-    position: relative;
 }
 
 .moon {
@@ -76,10 +74,6 @@ svg {
         fill: #6cace7;
         transform: rotate(270deg);
     }
-}
-
-main {
-    z-index: 1;
 }
 
 .planets-bg {
@@ -127,7 +121,10 @@ main {
     max-width: 200px;
 }
 
-.xx {
-    height: 3000px;
-    background-color: #6cace7;
+.moons {
+    background-image: url('../public/img/space.jpg');
+    background-size: cover;
+    background-repeat: space;
+    min-height: 100vh;
+    margin-bottom: 32px;
 }
