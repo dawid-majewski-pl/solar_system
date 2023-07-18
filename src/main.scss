@@ -101,6 +101,7 @@ $theme-colors: (
 
 .objects {
     background-image: url('/public/img/objects.jpg');
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     padding-bottom:32px;
