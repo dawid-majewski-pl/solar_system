@@ -4,6 +4,7 @@ $theme-colors: (
     "dark-main": #222222,
     "white-main": #eeeeee,
     "blue-main": #6cace7,
+    "purple-main": #595ba8,
     "orange-main": #ca9012,
 );
 // Include any default variable overrides here (though functions won't be available)
@@ -50,11 +51,33 @@ $theme-colors: (
     }
 }
 
+.planets {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+}
+
 .moon {
     animation: rotation 180s infinite linear;
     width: 280px;
     @media (min-width: 1240px) {
         width: 420px;
+    }
+}
+
+.moons {
+    background-image: url('../public/img/space.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: fit-content;
+    margin-bottom: 32px;
+    padding-bottom:32px;
+    &-cards-specials {
+        background-color: #030b1bc5;
+        transition: .5s;
+        &:hover {
+            background-color: #06173bad;
+            transform:scale(1.02)
+        }
     }
 }
 
@@ -74,6 +97,20 @@ $theme-colors: (
         background-color: #b9900963;
         transform: scale(1.02);
     }
+}
+
+.objects {
+    background-image: url('/public/img/objects.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom:32px;
+    margin-bottom: 32px;
+}
+
+.answers {
+    background-color:#010318;
+    min-height: fit-content;
+    padding-bottom:32px;
 }
 
 .navbar-specials {
@@ -103,11 +140,6 @@ svg {
     background-color: #00010c;
 }
 
-.planets {
-    margin-bottom: 32px;
-    padding-bottom: 32px;
-}
-
 .cards-wrapper-specials {
     margin-left: 32px;
     margin-right: 32px;
@@ -127,44 +159,20 @@ svg {
     }
 }
 
-
 .img-specials {
     max-width: 240px;
     animation: move 2s infinite linear;
+    transition: all .3s;
 }
 
 .btn-specials {
     transition: 0.3s;
     width: 80%;
     &:hover {
-    transform: scale(1.1);
-}
+        transform: scale(1.1);
+    }
 }
 
 .button-container {
     max-width: 200px;
-}
-
-.moons {
-    background-image: url('../public/img/space.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: fit-content;
-    margin-bottom: 32px;
-    padding-bottom:32px;
-    &-cards-specials {
-        background-color: #030b1bc5;
-        transition: .5s;
-        &:hover {
-            background-color: #06173bad;
-            transform:scale(1.02)
-        }
-    }
-}
-
-.objects {
-    background-image: url('/public/img/objects.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    padding-bottom:32px;
 }
