@@ -4,6 +4,7 @@ $theme-colors: (
     "dark-main": #222222,
     "white-main": #eeeeee,
     "blue-main": #6cace7,
+    "darkblue-main": #041729,
     "purple-main": #595ba8,
     "orange-main": #ca9012,
 );
@@ -156,7 +157,6 @@ svg {
     transition: .5s;
     &:hover {
         background-color: #34b8f538;
-        transform: scale(1.02);
     }
 }
 
@@ -174,6 +174,20 @@ svg {
     }
 }
 
+.text-specials {
+    text-align: justify;
+    font-size: 12px;
+}
+
 .button-container {
     max-width: 200px;
+}
+
+.planet-image {
+    max-width: 220px;
+    width: 100%;
+    margin: auto;
+    @media (max-height: 500px) {
+        display: none;
+    }
 }
