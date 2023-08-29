@@ -209,7 +209,9 @@
                                 <div class="card-body text-center pt-5">
                                     <h3 class="card-title">Moon</h3>
                                     <p class="card-text">Moon of Earth</p>
-                                    <button class="btn btn-blue-main btn-specials">Explore Moon</button>
+                                    <a href="#moon" data-bs-toggle="offcanvas" class="btn btn-blue-main btn-specials"
+                                        >Explore Moon</a
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -225,7 +227,9 @@
                                 <div class="card-body text-center pt-5">
                                     <h3 class="card-title">Europa</h3>
                                     <p class="card-text">Moon of Jupiter</p>
-                                    <button class="btn btn-blue-main btn-specials">Explore Europa</button>
+                                    <a href="#europa" data-bs-toggle="offcanvas" class="btn btn-blue-main btn-specials"
+                                        >Explore Europa</a
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -237,7 +241,9 @@
                                 <div class="card-body text-center pt-5">
                                     <h3 class="card-title">Io</h3>
                                     <p class="card-text">Moon of Jupiter</p>
-                                    <button class="btn btn-blue-main btn-specials">Explore Io</button>
+                                    <a href="#io" data-bs-toggle="offcanvas" class="btn btn-blue-main btn-specials"
+                                        >Explore Io</a
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -253,7 +259,9 @@
                                 <div class="card-body text-center pt-5">
                                     <h3 class="card-title">Titan</h3>
                                     <p class="card-text">Moon of Saturn</p>
-                                    <button class="btn btn-blue-main btn-specials">Explore Titan</button>
+                                    <a href="#titan" data-bs-toggle="offcanvas" class="btn btn-blue-main btn-specials"
+                                        >Explore Titan</a
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -274,7 +282,7 @@
                                 <div class="card-body text-center pt-5">
                                     <h3 class="card-title">Sun</h3>
                                     <p class="card-text">Star in Solar System</p>
-                                    <button class="btn btn-orange-main btn-specials">Explore Sun</button>
+                                    <a href="#the-sun" data-bs-toggle="offcanvas" class="btn btn-orange-main btn-specials">Explore Sun</a>
                                 </div>
                             </div>
                         </div>
@@ -503,6 +511,61 @@
                         physically smaller than Uranus because its greater mass causes more gravitational compression of
                         its atmosphere. The planet orbits the Sun once every 164.8 years at an average distance of 30.1
                         astronomical units (4.5 billion kilometres; 2.8 billion miles).
+                    </p>
+                </div>
+            </div>
+
+            <!-- Moon -->
+            <div id="moon" class="offcanvas offcanvas-start row p-5 bg-darkblue-main text-white w-75" tabindex="-1">
+                <h2 class="text-center pb-2">Moon</h2>
+                <div class="d-flex flex-column">
+                    <img class="planet-image p-5" src="/public/img/moon.png" alt="Picture of Moon." />
+                    <p class="text-specials">
+                        <b>The Moon</b> is Earth's only natural satellite. Its diameter is about one-quarter of Earth's (comparable to the width of Australia), making it the fifth largest satellite in the Solar System and the largest and most massive relative to its parent planet. It is larger than all known dwarf planets in the Solar System.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Europa -->
+            <div id="europa" class="offcanvas offcanvas-start row p-5 bg-darkblue-main text-white w-75" tabindex="-1">
+                <h2 class="text-center pb-2">Europa</h2>
+                <div class="d-flex flex-column">
+                    <img class="planet-image p-5" src="/public/img/europa.png" alt="Picture of Europa." />
+                    <p class="text-specials">
+                        <b>Europa</b> or Jupiter II, is the smallest of the four Galilean moons orbiting Jupiter, and the sixth-closest to the planet of all the 95 known moons of Jupiter. It is also the sixth-largest moon in the Solar System. Europa was discovered independently by Simon Marius and Galileo Galilei and was named (by Marius) after Europa, the Phoenician mother of King Minos of Crete and lover of Zeus (the Greek equivalent of the Roman god Jupiter).
+                    </p>
+                </div>
+            </div>
+
+            <!-- Io -->
+            <div id="io" class="offcanvas offcanvas-start row p-5 bg-darkblue-main text-white w-75" tabindex="-1">
+                <h2 class="text-center pb-2">Io</h2>
+                <div class="d-flex flex-column">
+                    <img class="planet-image p-5" src="/public/img/io.png" alt="Picture of Io." />
+                    <p class="text-specials">
+                        <b>Io</b> or Jupiter I, is the innermost and third-largest of the four Galilean moons of the planet Jupiter. Slightly larger than Earth’s moon, Io is the fourth-largest moon in the Solar System, has the highest density of any moon, the strongest surface gravity of any moon, and the lowest amount of water (by atomic ratio) of any known astronomical object in the Solar System. It was discovered in 1610 by Galileo Galilei and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Titan -->
+            <div id="titan" class="offcanvas offcanvas-start row p-5 bg-darkblue-main text-white w-75" tabindex="-1">
+                <h2 class="text-center pb-2">Titan</h2>
+                <div class="d-flex flex-column">
+                    <img class="planet-image p-5" src="/public/img/titan.png" alt="Picture of Titan." />
+                    <p class="text-specials">
+                        <b>Titan</b> is the largest moon of Saturn, the second-largest in the Solar System and larger than any of the dwarf planets of the Solar System. It is the only moon known to have a dense atmosphere, and is the only known object in space other than Earth on which clear evidence of stable bodies of surface liquid has been found.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Sun -->
+            <div id="the-sun" class="offcanvas offcanvas-start row p-5 bg-orange-main text-white w-75" tabindex="-1">
+                <h2 class="text-center pb-2">The Sun</h2>
+                <div class="d-flex flex-column">
+                    <img class="planet-image p-5" src="/public/img/sun.png" alt="Picture of the Sun." />
+                    <p class="text-specials">
+                        <b>The Sun</b> is the star at the center of the Solar System. It is a massive hot ball of plasma, inflated and heated by nuclear fusion reactions at its core. The Sun radiates this energy mainly as light, ultraviolet, and infrared radiation, and is the most important source of energy for life on Earth.
                     </p>
                 </div>
             </div>
